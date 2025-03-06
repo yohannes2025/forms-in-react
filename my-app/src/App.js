@@ -1,11 +1,10 @@
-import css from './App.module.css';
-import Sidebar from "./components/Sidebar";
+import "./App.css";
+import ControlledForm from "./components/ControlledForm";
 
 function App() {
   return (
-    <div className={css.App}>
-      {/* Add your components here */}
-      <Sidebar />
+    <div className="App">
+      <ControlledForm />
     </div>
   );
 }
